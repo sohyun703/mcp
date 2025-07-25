@@ -15,6 +15,7 @@
     "interactive": "tsx src/interactive-tester.ts",
     "agent": "tsx src/agent/simple-agent.ts",
     "smart": "tsx src/agent/smart-agent.ts",
+    "chat": "tsx src/agent/natural-language-agent.ts",
     "demo": "tsx src/demo.ts"
   },
   "keywords": ["mcp", "ai", "agent", "typescript"],

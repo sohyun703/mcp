@@ -1,0 +1,32 @@
+{
+  "name": "mcp-agent-engine",
+  "version": "1.0.0",
+  "description": "MCP를 활용한 에이전트 엔진 학습 프로젝트",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "server": "tsx src/server/index.ts",
+    "server:enhanced": "tsx src/server/enhanced-server.ts",
+    "client": "tsx src/client/index.ts",
+    "test": "tsx src/simple-test.ts",
+    "interactive": "tsx src/interactive-tester.ts",
+    "agent": "tsx src/agent/simple-agent.ts",
+    "smart": "tsx src/agent/smart-agent.ts",
+    "demo": "tsx src/demo.ts"
+  },
+  "keywords": ["mcp", "ai", "agent", "typescript"],
+  "author": "MCP 학습자",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
